@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(curl -s \"https://raw.githubusercontent.com/nextlevelbuilder/ui-ux-pro-max-skill/main/.claude/skills/ui-ux-pro-max/SKILL.md\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/humanizerai/agent-skills/main/claude-code/humanizer/SKILL.md\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/blader/humanizer/main/SKILL.md\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/drona23/claude-token-efficient/main/CLAUDE.md\")",
+      "Bash(curl -s \"https://api.github.com/repos/humanizerai/agent-skills/contents/\")",
+      "Bash(python -c \"import sys,json; [print\\(x['name']\\) for x in json.load\\(sys.stdin\\)]\")",
+      "Bash(curl -s \"https://api.github.com/repos/blader/humanizer/contents/\")",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(mkdir -p \"C:/Users/Isaac Pasaperaç/.claude/skills/ui-ux-pro-max\")",
+      "Bash(mkdir -p \"C:/Users/Isaac Pasaperaç/.claude/skills/humanizer\")",
+      "Bash(claude mcp *)",
+      "Bash(npm --version)",
+      "Bash(git --version)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack)",
+      "Bash(mv CLAUDE.md ../CLAUDE.md.bak)",
+      "Bash(mv .claude ../claude.bak)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack --yes)"
+    ]
+  }
+}

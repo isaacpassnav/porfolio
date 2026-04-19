@@ -19,7 +19,13 @@
       "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack)",
       "Bash(mv CLAUDE.md ../CLAUDE.md.bak)",
       "Bash(mv .claude ../claude.bak)",
-      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack --yes)"
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack --yes)",
+      "Bash(mv ../CLAUDE.md.bak CLAUDE.md)",
+      "Bash(mv ../claude.bak .claude)",
+      "Bash(npm install *)",
+      "Bash(git remote *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }

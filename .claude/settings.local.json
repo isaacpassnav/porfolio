@@ -25,7 +25,18 @@
       "Bash(npm install *)",
       "Bash(git remote *)",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(mv claude.bak/skills .)",
+      "Bash(rm -rf claude.bak)",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(npx next *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3001)",
+      "Bash(taskkill /PID 12976 /F)",
+      "Bash(cmd *)",
+      "Bash(npx tsc *)"
     ]
   }
 }
